@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Projects & Research | Hariselvam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <a href="index.html" class="logo" style="text-decoration: none;">
+                    <span class="custom-logo">HS</span>
+                </a>
+
+                <nav>
+                    <div class="hamb" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1Zr1VWL1HSkKr7aIfWyKnHfo3kHW5k_d8/preview" target="_blank">
+                                <i class="fa-solid fa-file-arrow-down"></i> Resume
+                            </a>
+                        </li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li class="btn"><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="projects-section" style="padding: 50px 0;">
+                <div class="main-width" style="text-align: center; color: white;">
+
+                    <div class="content" id="about" style="max-width: 900px; margin: 0 auto 50px auto;">
+                        <div style="background-color: #1f1f1f; padding: 35px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                            <p style="font-size: 18px; color: #ddd; line-height: 1.6; margin: 0;">
+<strong style="color: #00c6ff; font-size: 1.1em;">HELLO! I'M HARISELVAM</strong>, an engineering student currently focused on becoming a skilled Java Full Stack Developer.
+
+<br><br>
+
+I am building my expertise in Core Java, frontend technologies like HTML, CSS, and JavaScript, and backend development concepts. I enjoy developing structured, scalable web applications and continuously improving my programming and problem-solving skills.
+
+<br><br>
+
+My goal is to secure a strong software development role where I can apply my technical knowledge and grow as a professional developer.
+</p>
+
+
+                        </div>
+                    </div>
+                    
+                    <h2 style="font-size: 36px; margin-bottom: 40px;">Projects & Research Work</h2>
+
+                    <div style="display: flex; flex-direction: column; gap: 30px; align-items: center; max-width: 900px; margin: auto;">
+
+                        <div style="background-color: #1f1f1f; padding: 25px; border-radius: 20px; width: 100%;">
+    <h3 style="color: #00c6ff;">NEURO ROADS – Brain Signal Controlled Vehicle (Concept Paper)</h3>
+<p style="color: #ddd;">
+Presented as a conceptual research paper in an international conference. The idea focuses on controlling vehicles using brain neuro signals transmitted to Arduino, aimed at assisting physically challenged individuals.
+</p>
+<p style="color:#aaa;">Type: Conceptual Paper Presentation | Domain: Embedded Systems & Assistive Technology</p>
+
+</div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            var hamb = document.querySelector('.hamb');
+            var nav = document.querySelector('.nav-list');
+            hamb.classList.toggle('click');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
